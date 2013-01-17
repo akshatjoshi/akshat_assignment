@@ -1,0 +1,95 @@
+Usage.txt
+=========
+
+akshat_assignment script Version:1.0 17/01/2013
+
+Usage.txt
+=========
+
+akshat_assignment script Version:1.0 17/01/2013
+
+Operating Procedure of Script:--
+--------------------------------
+1.  # ./akshat_assignment.sh
+   ---------------------------------------
+            Main Menu
+  ----------------------------------------
+  [1] Change_Password
+  [2] Check_Disk_Space
+  [3] Login_to_Host
+  [4] Show_All_Service_Running
+  [5] Show_All_Open_Ports
+  [6] Show_All_Java_Apps
+  [7] Kill_Application
+  [8] Exit
+  Enter your menu choice [1-8]:
+
+  When script starts it's execution it will give 8 option those are mentioned above.
+  
+2.	Option 1   Change_Password,it will ask the user name for which you want to change the password.
+		Enter the user name you wish to change the password:
+		akshat
+		
+		 Setting New password for akshat:
+		Changing password for user akshat.
+		New UNIX password:
+		BAD PASSWORD: it is based on a dictionary word
+		Retype new UNIX password:
+		passwd: all authentication tokens updated successfully.
+			---------------------------------------
+					Main Menu
+			----------------------------------------
+			[1] Change_Password
+			[2] Check_Disk_Space
+			[3] Login_to_Host
+			[4] Show_All_Service_Running
+			[5] Show_All_Open_Ports
+			[6] Show_All_Java_Apps
+			[7] Kill_Application
+			[8] Exit
+			Enter your menu choice [1-8]:
+			
+	Now password of the desired user has been changed,after that script will ask script user to select other option.
+	
+3.	Option 2	Check_Disk_Space
+		Displaying Disk Space Status:
+		Filesystem            Size  Used Avail Use% Mounted on
+		/dev/mapper/VolGroup00-LogVol00
+								95G  9.4G   81G  11% /
+		/dev/mapper/VolGroup00-LogVol01
+								19G  1.2G   17G   7% /home
+		/dev/mapper/VolGroup00-LogVol02
+								18G   14G  2.6G  85% /var
+		/dev/sda1              99M   27M   68M  28% /boot
+		tmpfs                 1.5G     0  1.5G   0% /dev/shm
+			---------------------------------------
+					Main Menu
+			----------------------------------------
+			[1] Change_Password
+			[2] Check_Disk_Space
+			[3] Login_to_Host
+			[4] Show_All_Service_Running
+			[5] Show_All_Open_Ports
+			[6] Show_All_Java_Apps
+			[7] Kill_Application
+			[8] Exit
+			Enter your menu choice [1-8]:
+			
+	Now script will ask script user to select other option.
+	
+4 (A).	Option 3	Login_to_Host ,If user has mentioned an pingable ip address.
+		Enter the UserName of the Linux machine in which you want to do ssh:
+	root
+		Enter the IP of the Linux machine in which you want to do ssh:
+	1.1.1.1
+		Going to check the 1.1.1.1 is Valid Machine:
+		Going to Login in 1.1.1.1 Machine:
+root@1.1.1.1's password:
+Last login: Thu Jan 17 17:03:31 2013 from 2.2.2.2
+[root@1.1.1.1 ~]#
+
+
+
+
+
+	 
