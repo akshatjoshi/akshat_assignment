@@ -86,7 +86,142 @@ Operating Procedure of Script:--
 		Going to Login in 1.1.1.1 Machine:
 root@1.1.1.1's password:
 Last login: Thu Jan 17 17:03:31 2013 from 2.2.2.2
-[root@1.1.1.1 ~]#
+[root@1.1.1.1 ~]#exit
+logout
+Connection to 1.1.1.1 closed.
+		---------------------------------------
+					Main Menu
+		----------------------------------------
+		[1] Change_Password
+		[2] Check_Disk_Space
+		[3] Login_to_Host
+		[4] Show_All_Service_Running
+		[5] Show_All_Open_Ports
+		[6] Show_All_Java_Apps
+		[7] Kill_Application
+		[8] Exit
+		Enter your menu choice [1-8]:
+		
+4 (B).  Option 3	Login_to_Host ,If user has mentioned an non pingable ip address.
+		Enter the UserName of the Linux machine in which you want to do ssh:
+	root
+		Enter the IP of the Linux machine in which you want to do ssh:
+	10.10.10.10
+			Going to check the 10.10.10.10 is Valid Machine:
+			10.10.10.10 is not pingable....Please check:
+		---------------------------------------
+					Main Menu
+		----------------------------------------
+		[1] Change_Password
+		[2] Check_Disk_Space
+		[3] Login_to_Host
+		[4] Show_All_Service_Running
+		[5] Show_All_Open_Ports
+		[6] Show_All_Java_Apps
+		[7] Kill_Application
+		[8] Exit
+		Enter your menu choice [1-8]:
+		
+	Now script will ask script user to select other option.
+
+5.		Option 4	Show_All_Service_Running
+root     11955 11876  0 11:54 pts/2    00:00:00 sudo su -
+root     11956 11955  0 11:54 pts/2    00:00:00 su -
+root     11957 11956  0 11:54 pts/2    00:00:00 -bash
+root     12046 11828  0 11:59 pts/1    00:00:00 sudo su -
+root     12048 12046  0 11:59 pts/1    00:00:00 su -
+root     12049 12048  0 11:59 pts/1    00:00:00 -bash
+root     12096 12049  0 12:00 pts/1    00:00:00 /bin/bash ./akshat_assignment.sh
+root     12129 12096  0 12:01 pts/1    00:00:00 ps -ef
+root     12130 12096  0 12:01 pts/1    00:00:00 less
+
+		 Displaying All running process in the Machine:
+		---------------------------------------
+					Main Menu
+		----------------------------------------
+		[1] Change_Password
+		[2] Check_Disk_Space
+		[3] Login_to_Host
+		[4] Show_All_Service_Running
+		[5] Show_All_Open_Ports
+		[6] Show_All_Java_Apps
+		[7] Kill_Application
+		[8] Exit
+		Enter your menu choice [1-8]:
+		
+	Now script will ask script user to select other option.
+	
+6. 		Option 5	Show_All_Open_Ports
+
+tcp        0      0 *:55581                     *:*                         LISTEN      5273/jsvc.exec
+tcp        0      0 *:10014                     *:*                         LISTEN      4917/java
+udp        0      0 fe80::20c:29ff:fe9a:3c9f:ntp *:*                                     4683/ntpd
+udp        0      0 localhost6.localdomain6:ntp *:*                                     4683/ntpd
+udp        0      0 *:ntp                       *:*                                     4683/ntpd
+		 Displaying All Open Ports Of The Machine:
+		---------------------------------------
+					Main Menu
+		----------------------------------------
+		[1] Change_Password
+		[2] Check_Disk_Space
+		[3] Login_to_Host
+		[4] Show_All_Service_Running
+		[5] Show_All_Open_Ports
+		[6] Show_All_Java_Apps
+		[7] Kill_Application
+		[8] Exit
+		Enter your menu choice [1-8]:
+		
+	Now script will ask script user to select other option.
+
+7.		Option 6	Show_All_Java_Apps
+
+Displaying All Java application which running On The Machine:
+root      4916     1  0  2012 ?        00:00:00 /usr/abc/command/bin/SolWatchdog -x 100 /usr/abc/command/kits/sun/jre1.5/bin/java 
+												-server -DupdateThreadPoolSize=100 -classpath /usr/abc/command/jar/jvm1.5/jradius.jar
+												:/usr/abc/command/jar/jvm1.5/jradius-dictionary.jar:/usr/abc/command/jar/jvm1.5/gnu-crypto.jar
+												:/usr/abc/command/jar/jvm1.5/command_server.jar:/usr/abc/command/jar/jvm1.5/command_client.jar
+												:/usr/abc/command/jar/jvm1.5/platform.jar:::/usr/abc/command/jar/jvm1.5/ojdbc14.jar
+												:/usr/abc/command/jar/jvm1.5/postgresql.jar:/usr/abc/command/jar/jvm1.5/classes12_01.zip
+												:/usr/abc/command/kits/ibm/xml4j-1.1.9/xml4j_1_1_9.jar:/usr/abc/command/kits/sun/jsdk2.0/lib/jsdk.jar
+												:/usr/abc/command/jar/jvm1.5/jace.jar com.abc.command.server.CommandServer yes.xyz.com:90 /usr/abc/command
+		---------------------------------------
+				Main Menu
+		----------------------------------------
+		[1] Change_Password
+		[2] Check_Disk_Space
+		[3] Login_to_Host
+		[4] Show_All_Service_Running
+		[5] Show_All_Open_Ports
+		[6] Show_All_Java_Apps
+		[7] Kill_Application
+		[8] Exit
+		Enter your menu choice [1-8]:
+		
+	Now script will ask script user to select other option.
+	
+8.		Option 7	Kill_Application
+		
+		Please Enter the PID of  application Which you want to kill:
+		12438
+		---------------------------------------
+					Main Menu
+		----------------------------------------
+		[1] Change_Password
+		[2] Check_Disk_Space
+		[3] Login_to_Host
+		[4] Show_All_Service_Running
+		[5] Show_All_Open_Ports
+		[6] Show_All_Java_Apps
+		[7] Kill_Application
+		[8] Exit
+		Enter your menu choice [1-8]:
+		
+	Now script will ask script user to select other option.
+	
+9.		Option 8	Exit
+
+		When script user Pressed option 8 it will gracefully exited from the script.
 
 
 
