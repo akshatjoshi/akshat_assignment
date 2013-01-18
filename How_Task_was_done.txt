@@ -1,0 +1,11 @@
+akshat_assignment 
+=================
+akshat_assignment script Version:1.0 17/01/2013
+
+IIn my earlier and current oraganization i have write some script which gives menu option and ask from the script user to enter there desired operation and then it performed the 
+requested task.So menu option i have coded earlier and have expirenced in it.
+
+As well as most of the objective in the assignment i have coded earlier too as i have write some script which checks the health check of the production servers and also
+state the status of the server health,opened port,load avg,process states etc.Due to that i have successfully coded the given assignment.
+
+While completing this task i have take little help from man pages of the linux ,as well as light googling and my earlier coded script as well.
