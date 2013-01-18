@@ -42,6 +42,8 @@ Working Procedure of the Script:--
 
 3.	Execute this script eg:-- sh akshat_assignment.sh or ./akshat_assignment.sh
 
+4.	For detailed usage procedure please refer Usage.txt.	
+
 Assignment Submitted By:--
 -----------------------
 
